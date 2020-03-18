@@ -1,0 +1,61 @@
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+//=========================================================
+@media only screen and (max-width: 780px) {
+
+  .menu-item {
+    display: block;
+    max-width: 120px;
+    text-align: center;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+
+  .skills-wrapper, .skill-items, .team-wrapper, .team-items, .got-skills-wrapper, .got-skill-items  {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+
+
+  footer .container ul {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+}
+
+//===================================================================
+
+@media only screen and (max-width: 480px) {
+  .menu-item {
+      display: block;
+      max-width: 120px;
+      text-align: center;
+      margin: 0 auto 20px;
+      flex-wrap: wrap;
+    }
+
+  .skills-wrapper, .skill-items, .team-wrapper, .team-items, .got-skills-wrapper, .got-skill-items  {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto 20px;
+        flex-wrap: wrap;
+      }
+
+}
+
+
+

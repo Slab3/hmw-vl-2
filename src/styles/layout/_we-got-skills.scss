@@ -1,0 +1,38 @@
+/*============================We Got Skills================================*/
+
+.skills-we-got {
+  padding: 110px 0;
+}
+
+.got-skills-h1-p-text {
+  width: 100%;
+  max-width: 603px;
+  margin: 0 auto 40px;
+}
+
+.got-skills-h1 {
+  &:after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 20px auto 0;
+  }
+}
+
+
+/*===== skill-items =====*/
+
+.got-skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.got-skill-items {
+  width: 20%;
+}
+
+.got-skills-h2 {
+  padding: 31px 0 122px 0;
+}

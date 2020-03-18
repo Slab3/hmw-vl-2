@@ -1,0 +1,16 @@
+footer {
+  .container {
+    width: 60%;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 48px 0 41px 0;
+
+      li {
+        line-height: 29.91px;
+      }
+    }
+  }
+}
+

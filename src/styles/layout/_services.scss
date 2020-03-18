@@ -1,0 +1,42 @@
+/*============= section Services ==========*/
+
+.services-section {
+  padding: 110px 0;
+}
+
+.services-h1-p-text {
+  width: 100%;
+  max-width: 603px;
+  margin: 0 auto 40px;
+}
+
+.images-height {
+  height: 133px;
+}
+
+.services-h1 {
+
+  &:after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 20px auto 0;
+  }
+}
+
+/*===== skill-items =====*/
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-items {
+  width: 20%;
+}
+
+.items-h2 {
+  padding: 60px 0 27px 0;
+}
+

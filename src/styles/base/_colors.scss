@@ -1,0 +1,120 @@
+a {
+  color: #ffffff;
+}
+
+//====================================================header
+header {
+  background-color: #87509c;
+}
+
+.menu-item a:hover {
+  background-color: #643a79;
+}
+
+.title-1 {
+  color: #f7f3ea;
+}
+
+.btn-wwu {
+  background-color: #eb7d4b;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #e24014;
+  }
+}
+//==============================================services section
+
+.services-section {
+  background-color: #17c2a4;
+}
+
+.services-h1 {
+  color: #ffffff;
+
+  &:after {
+    background-color: #14a58c;
+  }
+}
+
+.services-text {
+  color: #ffffff;
+}
+
+.skill-items {
+  color: #ffffff;
+}
+
+//=================================================Team section
+
+.team-section {
+  background-color: #e7f1f8;
+}
+
+.team-h1 {
+  color: #3c4761;
+
+  &:after {
+    background-color: #bdd1df;
+  }
+}
+
+.team-text {
+  color: #3c4761;
+
+}
+
+.team-h2 {
+  color: #27283d;
+}
+
+.team-members-text {
+  color: #3c4761;
+}
+
+.team-h3 {
+  color: #30bae7;
+}
+
+//=====================================================we got skills
+
+.skills-we-got {
+  background-color: #ffffff;
+}
+
+.got-skills-h1 {
+  color: #3c4761;
+
+  &:after {
+    background-color: #dfe8ed;
+  }
+}
+
+.got-skills-text {
+  color: #3c4761;
+}
+
+.got-skill-items {
+  color: #15ff22;
+}
+
+.got-skills-h2 {
+  color: #3c4761;
+}
+
+//=======================================================footer
+
+footer {
+  background-color: #344b8e;
+  .container {
+    ul {
+      li {
+        color: #ffffff;
+
+        &:hover {
+          color: #30bae7;
+        }
+      }
+    }
+  }
+}
