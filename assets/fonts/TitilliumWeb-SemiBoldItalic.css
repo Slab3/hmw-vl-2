@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Titillium Web SemiBold";
+    src: url("TitilliumWeb-SemiBoldItalic.eot"); /* IE9 */
+    src: url("TitilliumWeb-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("TitilliumWeb-SemiBoldItalic.woff") format("woff"), /* chrome, firefox */
+    url("TitilliumWeb-SemiBoldItalic.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("TitilliumWeb-SemiBoldItalic.svg#Titillium Web SemiBold") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

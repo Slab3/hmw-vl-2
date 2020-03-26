@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Titillium Web ExtraLight";
+    src: url("TitilliumWeb-ExtraLightItalic.eot"); /* IE9 */
+    src: url("TitilliumWeb-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("TitilliumWeb-ExtraLightItalic.woff") format("woff"), /* chrome, firefox */
+    url("TitilliumWeb-ExtraLightItalic.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("TitilliumWeb-ExtraLightItalic.svg#Titillium Web ExtraLight") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
