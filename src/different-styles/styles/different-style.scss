@@ -1,0 +1,362 @@
+ul {padding: 0;}
+
+li {list-style: none;}
+
+p, h1, h2, h3, h4, ul, body, button {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Calibri, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: #c6ffba;
+  text-decoration: none;
+
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.flex-elem {
+  display: flex;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*======= Header ======*/
+
+header {
+  background-color: #25929c;
+  width: 100%;
+
+  .header-wrap {
+    padding: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+
+  .menu-item a {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 16px;
+
+    /*font-weight: 400;*/
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+  }
+
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 16px;
+
+  /*font-weight: 400;*/
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.menu-item a:hover {
+  background-color: #327979;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+header li:last-child a {
+  margin-right: 0;
+}
+
+.title-1 {
+  max-width: 920px;
+  margin: 110px auto 50px auto;
+  padding: 0 20px;
+  color: #f7f3ea;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 48.82px;
+  text-transform: none;
+  text-align: center;
+}
+
+.btn-wwu {
+  width: 293px;
+  height: 70px;
+  background-color: #a6eb7a;
+  border-radius: 4px;
+  margin: 0 auto 140px auto;
+  padding: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.19px;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
+  border: none;
+
+  &:hover {
+    background-color: #31af1d;
+    cursor: pointer;
+  }
+}
+
+/*======== End Of Header ========*/
+
+/*============= section Services ==========*/
+
+.services-section {
+  padding: 110px 0;
+  background-color: #6e6a09;
+}
+
+.services-h1-p-text {
+  width: 100%;
+  max-width: 603px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.images-height {
+  height: 133px;
+}
+
+.services-h1 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 20px auto 0;
+    background-color: #14a58c;
+  }
+}
+
+.services-text {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  white-space: pre-line;
+  letter-spacing: 0.36px;
+}
+
+/*===== skill-items =====*/
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.skill-items {
+  width: 20%;
+  color: #ffffff;
+}
+
+.items-h2 {
+  padding: 60px 0 27px 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
+
+.item-text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+/*========================Team Section========================*/
+
+.team-section {
+  padding: 110px 0;
+  background-color: #f89274;
+}
+
+.team-h1-p-text {
+  width: 100%;
+  max-width: 603px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.team-h1 {
+  font-size: 41px;
+  color: #3c4761;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 20px auto 0;
+    background-color: #bdd1df;
+  }
+}
+
+.team-text {
+  font-size: 19px;
+  color: #3c4761;
+  font-weight: 400;
+  white-space: pre-line;
+  letter-spacing: 0.36px;
+}
+
+/*===== team-items =====*/
+
+.team-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.team-items {
+  width: 20%;
+}
+
+.team-h2 {
+  color: #27283d;
+  padding: 41px 0 5px 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
+
+.team-members-text {
+  color: #3c4761;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.team-h3 {
+  padding: 0 0 26px 0;
+  color: #30bae7;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 170px;
+  margin: 31px auto;
+}
+
+.img-url-sm {}
+
+/*============================We Got Skills================================*/
+
+.skills-we-got {
+  padding: 110px 0;
+  background-color: #b2b8ff;
+}
+
+.got-skills-h1-p-text {
+  width: 100%;
+  max-width: 603px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.got-skills-h1 {
+  font-size: 40px;
+  color: #3c4761;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 4px;
+    margin: 20px auto 0;
+    background-color: #dfe8ed;
+  }
+}
+
+.got-skills-text {
+  font-size: 18px;
+  color: #3c4761;
+  font-weight: 400;
+  white-space: pre-line;
+  letter-spacing: 0.36px;
+}
+
+/*===== skill-items =====*/
+
+.got-skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.got-skill-items {
+  width: 20%;
+  color: #ffffff;
+}
+
+.got-skills-h2 {
+  color: #3c4761;
+  padding: 31px 0 122px 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+}
+
+/*===================================== Footer ========================================*/
+/* -----------------footer------------ */
+
+footer {
+  background-color: #488e72;
+
+  .container {
+    width: 60%;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      padding: 48px 0 41px 0;
+
+      li {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.91px;
+
+        &:hover {
+          color: #842700;
+        }
+      }
+    }
+  }
+}
